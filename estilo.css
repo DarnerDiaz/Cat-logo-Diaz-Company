@@ -1,0 +1,109 @@
+/* FUENTES TIPOGRAFICAS */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Peddana&display=swap');
+
+/* DISEÑO GENERAL */
+body {
+    font-family: 'ubuntu', sans-serif;
+    margin: 0px;
+}
+
+/* ENCABEZADO */
+header {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #1CB5FF;
+    background-color: #0f3499;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header > h1 {
+    font-size: 3em;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0px;
+    text-align: center;
+}
+
+header > h2 {
+    font-size: 1.5em;
+    font-family: 'Bitter', serif;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+/* navegacion */
+nav > ul {
+    margin: 0;
+    background-color: #0026ffd5;
+    text-align: center;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 20px 20px 10px;
+}
+
+nav > ul > li:hover {
+    background-color: #781CFF;
+
+}
+
+nav > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Notificación */
+#notificacion{
+    margin: 0px;
+    padding: 7px;
+    text-align: center;
+    background-color: #c3ac31;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* cuarpo principal - main */
+main{
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3f3968a6;
+
+}
+/* catalogo */
+section#catalogo {
+    text-align: center;
+
+}
+
+ /* Articulos */
+ article {
+    width: 24%;
+    max-width: 100px;
+    min-width: 200px;
+    display: inline-block;
+    margin: 30px;
+    border: 3px #19191a solid;
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+ }
+.precio {
+    font-family: 'Bitter', serif;
+    font-family: 'Peddana', serif;
+    font-size: 25px;
+    margin-top: 0%;
+}
+article > p {
+    line-height: 100%;
+}
+.imgProducto {
+    width: 194px;
+}
